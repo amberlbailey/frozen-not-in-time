@@ -4,14 +4,26 @@ html {
 
 h1 {
   color: #990073;
+  transform: rotate(-10deg);
+
 }
 
 p {
   color: #c09;
+  transform: rotate(-6deg);
+  max-width: 19em;
 }
 
-.btn {
-  color: #c09;
+.btn-ghost {
   border-color: #990073;
+  color: #c09;
   border-radius: 4px;
+}
+
+.banner {
+  background: repeating-linear-gradient(-45deg, #d4fdff, #d4fdff 10px, #c9fcff 10px, #c9fcff 20px);
+}
+
+.blue {
+  background-color: #b3fbff;
 }
