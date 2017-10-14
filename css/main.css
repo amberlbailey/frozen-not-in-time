@@ -1,23 +1,25 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", sans-serif;
 }
 
 h1 {
   color: #990073;
   transform: rotate(-10deg);
-
+  text-shadow: 1px 1px 3px #c09;
 }
 
 p {
   color: #c09;
   transform: rotate(-6deg);
   max-width: 19em;
+  text-shadow: 1px 1px 3px #990073;
 }
 
 .btn-ghost {
   border-color: #990073;
   color: #c09;
   border-radius: 4px;
+  text-shadow: 1px 1px 3px #990073;
 }
 
 .banner {
@@ -26,4 +28,25 @@ p {
 
 .blue {
   background-color: #b3fbff;
+}
+
+.cone {
+  background: transparent url("../images/cone.svg") no-repeat center center;
+  position: relative;
+}
+
+.cherry {
+  position: absolute;
+}
+
+.chocolate-chip {
+  position: absolute;
+}
+
+.mint-chip {
+  position: absolute;
+}
+
+.vanilla-fudge {
+  position: absolute;
 }
